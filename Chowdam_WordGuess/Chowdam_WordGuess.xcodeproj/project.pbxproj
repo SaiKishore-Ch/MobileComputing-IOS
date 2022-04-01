@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75121ED727F671EA00D25666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75121ED627F671EA00D25666 /* AppDelegate.swift */; };
+		75121ED927F671EA00D25666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75121ED827F671EA00D25666 /* SceneDelegate.swift */; };
+		75121EDB27F671EA00D25666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75121EDA27F671EA00D25666 /* ViewController.swift */; };
+		75121EDE27F671EA00D25666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75121EDC27F671EA00D25666 /* Main.storyboard */; };
+		75121EE027F671EB00D25666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75121EDF27F671EB00D25666 /* Assets.xcassets */; };
+		75121EE327F671EB00D25666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75121EE127F671EB00D25666 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75121EEA27F671EC00D25666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75121ECB27F671EA00D25666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75121ED227F671EA00D25666;
+			remoteInfo = Chowdam_WordGuess;
+		};
+		75121EF427F671EC00D25666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75121ECB27F671EA00D25666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75121ED227F671EA00D25666;
+			remoteInfo = Chowdam_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75121ED327F671EA00D25666 /* Chowdam_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chowdam_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75121ED627F671EA00D25666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75121ED827F671EA00D25666 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75121EDA27F671EA00D25666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75121EDD27F671EA00D25666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75121EDF27F671EB00D25666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75121EE227F671EB00D25666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75121EE427F671EB00D25666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75121EE927F671EC00D25666 /* Chowdam_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chowdam_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75121EF327F671EC00D25666 /* Chowdam_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chowdam_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75121ED027F671EA00D25666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EE627F671EC00D25666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EF027F671EC00D25666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75121ECA27F671EA00D25666 = {
+			isa = PBXGroup;
+			children = (
+				75121ED527F671EA00D25666 /* Chowdam_WordGuess */,
+				75121ED427F671EA00D25666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75121ED427F671EA00D25666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75121ED327F671EA00D25666 /* Chowdam_WordGuess.app */,
+				75121EE927F671EC00D25666 /* Chowdam_WordGuessTests.xctest */,
+				75121EF327F671EC00D25666 /* Chowdam_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75121ED527F671EA00D25666 /* Chowdam_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				75121ED627F671EA00D25666 /* AppDelegate.swift */,
+				75121ED827F671EA00D25666 /* SceneDelegate.swift */,
+				75121EDA27F671EA00D25666 /* ViewController.swift */,
+				75121EDC27F671EA00D25666 /* Main.storyboard */,
+				75121EDF27F671EB00D25666 /* Assets.xcassets */,
+				75121EE127F671EB00D25666 /* LaunchScreen.storyboard */,
+				75121EE427F671EB00D25666 /* Info.plist */,
+			);
+			path = Chowdam_WordGuess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75121ED227F671EA00D25666 /* Chowdam_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75121EFD27F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuess" */;
+			buildPhases = (
+				75121ECF27F671EA00D25666 /* Sources */,
+				75121ED027F671EA00D25666 /* Frameworks */,
+				75121ED127F671EA00D25666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chowdam_WordGuess;
+			productName = Chowdam_WordGuess;
+			productReference = 75121ED327F671EA00D25666 /* Chowdam_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75121EE827F671EC00D25666 /* Chowdam_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75121F0027F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuessTests" */;
+			buildPhases = (
+				75121EE527F671EC00D25666 /* Sources */,
+				75121EE627F671EC00D25666 /* Frameworks */,
+				75121EE727F671EC00D25666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75121EEB27F671EC00D25666 /* PBXTargetDependency */,
+			);
+			name = Chowdam_WordGuessTests;
+			productName = Chowdam_WordGuessTests;
+			productReference = 75121EE927F671EC00D25666 /* Chowdam_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75121EF227F671EC00D25666 /* Chowdam_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75121F0327F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuessUITests" */;
+			buildPhases = (
+				75121EEF27F671EC00D25666 /* Sources */,
+				75121EF027F671EC00D25666 /* Frameworks */,
+				75121EF127F671EC00D25666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75121EF527F671EC00D25666 /* PBXTargetDependency */,
+			);
+			name = Chowdam_WordGuessUITests;
+			productName = Chowdam_WordGuessUITests;
+			productReference = 75121EF327F671EC00D25666 /* Chowdam_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75121ECB27F671EA00D25666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					75121ED227F671EA00D25666 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					75121EE827F671EC00D25666 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 75121ED227F671EA00D25666;
+					};
+					75121EF227F671EC00D25666 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 75121ED227F671EA00D25666;
+					};
+				};
+			};
+			buildConfigurationList = 75121ECE27F671EA00D25666 /* Build configuration list for PBXProject "Chowdam_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75121ECA27F671EA00D25666;
+			productRefGroup = 75121ED427F671EA00D25666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75121ED227F671EA00D25666 /* Chowdam_WordGuess */,
+				75121EE827F671EC00D25666 /* Chowdam_WordGuessTests */,
+				75121EF227F671EC00D25666 /* Chowdam_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75121ED127F671EA00D25666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75121EE327F671EB00D25666 /* LaunchScreen.storyboard in Resources */,
+				75121EE027F671EB00D25666 /* Assets.xcassets in Resources */,
+				75121EDE27F671EA00D25666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EE727F671EC00D25666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EF127F671EC00D25666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75121ECF27F671EA00D25666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75121EDB27F671EA00D25666 /* ViewController.swift in Sources */,
+				75121ED727F671EA00D25666 /* AppDelegate.swift in Sources */,
+				75121ED927F671EA00D25666 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EE527F671EC00D25666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75121EEF27F671EC00D25666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75121EEB27F671EC00D25666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75121ED227F671EA00D25666 /* Chowdam_WordGuess */;
+			targetProxy = 75121EEA27F671EC00D25666 /* PBXContainerItemProxy */;
+		};
+		75121EF527F671EC00D25666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75121ED227F671EA00D25666 /* Chowdam_WordGuess */;
+			targetProxy = 75121EF427F671EC00D25666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75121EDC27F671EA00D25666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75121EDD27F671EA00D25666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75121EE127F671EB00D25666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75121EE227F671EB00D25666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75121EFB27F671EC00D25666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75121EFC27F671EC00D25666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75121EFE27F671EC00D25666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chowdam_WordGuess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75121EFF27F671EC00D25666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chowdam_WordGuess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75121F0127F671EC00D25666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowdam_WordGuess.app/Chowdam_WordGuess";
+			};
+			name = Debug;
+		};
+		75121F0227F671EC00D25666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowdam_WordGuess.app/Chowdam_WordGuess";
+			};
+			name = Release;
+		};
+		75121F0427F671EC00D25666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chowdam_WordGuess;
+			};
+			name = Debug;
+		};
+		75121F0527F671EC00D25666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chowdam_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75121ECE27F671EA00D25666 /* Build configuration list for PBXProject "Chowdam_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75121EFB27F671EC00D25666 /* Debug */,
+				75121EFC27F671EC00D25666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75121EFD27F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75121EFE27F671EC00D25666 /* Debug */,
+				75121EFF27F671EC00D25666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75121F0027F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75121F0127F671EC00D25666 /* Debug */,
+				75121F0227F671EC00D25666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75121F0327F671EC00D25666 /* Build configuration list for PBXNativeTarget "Chowdam_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75121F0427F671EC00D25666 /* Debug */,
+				75121F0527F671EC00D25666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75121ECB27F671EA00D25666 /* Project object */;
+}
