@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		757A8A7A27FCCD8F00021180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A7927FCCD8F00021180 /* AppDelegate.swift */; };
+		757A8A7C27FCCD8F00021180 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A7B27FCCD8F00021180 /* SceneDelegate.swift */; };
+		757A8A7E27FCCD8F00021180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A7D27FCCD8F00021180 /* ViewController.swift */; };
+		757A8A8127FCCD8F00021180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757A8A7F27FCCD8F00021180 /* Main.storyboard */; };
+		757A8A8327FCCD9000021180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757A8A8227FCCD9000021180 /* Assets.xcassets */; };
+		757A8A8627FCCD9000021180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757A8A8427FCCD9000021180 /* LaunchScreen.storyboard */; };
+		757A8A9127FCCD9000021180 /* Chowdam_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A9027FCCD9000021180 /* Chowdam_GroceryAppTests.swift */; };
+		757A8A9B27FCCD9000021180 /* Chowdam_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A9A27FCCD9000021180 /* Chowdam_GroceryAppUITests.swift */; };
+		757A8A9D27FCCD9000021180 /* Chowdam_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8A9C27FCCD9000021180 /* Chowdam_GroceryAppUITestsLaunchTests.swift */; };
+		757A8AAC27FCD1F900021180 /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8AAB27FCD1F900021180 /* GroceryItemsViewController.swift */; };
+		757A8AAE27FCD50600021180 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8AAD27FCD50600021180 /* ItemInfoViewController.swift */; };
+		757A8AB027FCDA6E00021180 /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A8AAF27FCDA6E00021180 /* GrocerySections.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		757A8A8D27FCCD9000021180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757A8A6E27FCCD8F00021180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757A8A7527FCCD8F00021180;
+			remoteInfo = Chowdam_GroceryApp;
+		};
+		757A8A9727FCCD9000021180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757A8A6E27FCCD8F00021180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757A8A7527FCCD8F00021180;
+			remoteInfo = Chowdam_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		757A8A7627FCCD8F00021180 /* Chowdam_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chowdam_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757A8A7927FCCD8F00021180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		757A8A7B27FCCD8F00021180 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		757A8A7D27FCCD8F00021180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		757A8A8027FCCD8F00021180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		757A8A8227FCCD9000021180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		757A8A8527FCCD9000021180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		757A8A8727FCCD9000021180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757A8A8C27FCCD9000021180 /* Chowdam_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chowdam_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		757A8A9027FCCD9000021180 /* Chowdam_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chowdam_GroceryAppTests.swift; sourceTree = "<group>"; };
+		757A8A9627FCCD9000021180 /* Chowdam_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chowdam_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		757A8A9A27FCCD9000021180 /* Chowdam_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chowdam_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		757A8A9C27FCCD9000021180 /* Chowdam_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chowdam_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		757A8AAB27FCD1F900021180 /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		757A8AAD27FCD50600021180 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		757A8AAF27FCDA6E00021180 /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757A8A7327FCCD8F00021180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A8927FCCD9000021180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A9327FCCD9000021180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757A8A6D27FCCD8F00021180 = {
+			isa = PBXGroup;
+			children = (
+				757A8A7827FCCD8F00021180 /* Chowdam_GroceryApp */,
+				757A8A8F27FCCD9000021180 /* Chowdam_GroceryAppTests */,
+				757A8A9927FCCD9000021180 /* Chowdam_GroceryAppUITests */,
+				757A8A7727FCCD8F00021180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		757A8A7727FCCD8F00021180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757A8A7627FCCD8F00021180 /* Chowdam_GroceryApp.app */,
+				757A8A8C27FCCD9000021180 /* Chowdam_GroceryAppTests.xctest */,
+				757A8A9627FCCD9000021180 /* Chowdam_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757A8A7827FCCD8F00021180 /* Chowdam_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				757A8A7927FCCD8F00021180 /* AppDelegate.swift */,
+				757A8A7B27FCCD8F00021180 /* SceneDelegate.swift */,
+				757A8A7D27FCCD8F00021180 /* ViewController.swift */,
+				757A8A7F27FCCD8F00021180 /* Main.storyboard */,
+				757A8A8227FCCD9000021180 /* Assets.xcassets */,
+				757A8A8427FCCD9000021180 /* LaunchScreen.storyboard */,
+				757A8A8727FCCD9000021180 /* Info.plist */,
+				757A8AAB27FCD1F900021180 /* GroceryItemsViewController.swift */,
+				757A8AAD27FCD50600021180 /* ItemInfoViewController.swift */,
+				757A8AAF27FCDA6E00021180 /* GrocerySections.swift */,
+			);
+			path = Chowdam_GroceryApp;
+			sourceTree = "<group>";
+		};
+		757A8A8F27FCCD9000021180 /* Chowdam_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				757A8A9027FCCD9000021180 /* Chowdam_GroceryAppTests.swift */,
+			);
+			path = Chowdam_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		757A8A9927FCCD9000021180 /* Chowdam_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				757A8A9A27FCCD9000021180 /* Chowdam_GroceryAppUITests.swift */,
+				757A8A9C27FCCD9000021180 /* Chowdam_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Chowdam_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757A8A7527FCCD8F00021180 /* Chowdam_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757A8AA027FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryApp" */;
+			buildPhases = (
+				757A8A7227FCCD8F00021180 /* Sources */,
+				757A8A7327FCCD8F00021180 /* Frameworks */,
+				757A8A7427FCCD8F00021180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chowdam_GroceryApp;
+			productName = Chowdam_GroceryApp;
+			productReference = 757A8A7627FCCD8F00021180 /* Chowdam_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		757A8A8B27FCCD9000021180 /* Chowdam_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757A8AA327FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryAppTests" */;
+			buildPhases = (
+				757A8A8827FCCD9000021180 /* Sources */,
+				757A8A8927FCCD9000021180 /* Frameworks */,
+				757A8A8A27FCCD9000021180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757A8A8E27FCCD9000021180 /* PBXTargetDependency */,
+			);
+			name = Chowdam_GroceryAppTests;
+			productName = Chowdam_GroceryAppTests;
+			productReference = 757A8A8C27FCCD9000021180 /* Chowdam_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		757A8A9527FCCD9000021180 /* Chowdam_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757A8AA627FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryAppUITests" */;
+			buildPhases = (
+				757A8A9227FCCD9000021180 /* Sources */,
+				757A8A9327FCCD9000021180 /* Frameworks */,
+				757A8A9427FCCD9000021180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757A8A9827FCCD9000021180 /* PBXTargetDependency */,
+			);
+			name = Chowdam_GroceryAppUITests;
+			productName = Chowdam_GroceryAppUITests;
+			productReference = 757A8A9627FCCD9000021180 /* Chowdam_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757A8A6E27FCCD8F00021180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					757A8A7527FCCD8F00021180 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					757A8A8B27FCCD9000021180 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 757A8A7527FCCD8F00021180;
+					};
+					757A8A9527FCCD9000021180 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 757A8A7527FCCD8F00021180;
+					};
+				};
+			};
+			buildConfigurationList = 757A8A7127FCCD8F00021180 /* Build configuration list for PBXProject "Chowdam_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757A8A6D27FCCD8F00021180;
+			productRefGroup = 757A8A7727FCCD8F00021180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757A8A7527FCCD8F00021180 /* Chowdam_GroceryApp */,
+				757A8A8B27FCCD9000021180 /* Chowdam_GroceryAppTests */,
+				757A8A9527FCCD9000021180 /* Chowdam_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757A8A7427FCCD8F00021180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757A8A8627FCCD9000021180 /* LaunchScreen.storyboard in Resources */,
+				757A8A8327FCCD9000021180 /* Assets.xcassets in Resources */,
+				757A8A8127FCCD8F00021180 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A8A27FCCD9000021180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A9427FCCD9000021180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757A8A7227FCCD8F00021180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757A8A7E27FCCD8F00021180 /* ViewController.swift in Sources */,
+				757A8AB027FCDA6E00021180 /* GrocerySections.swift in Sources */,
+				757A8A7A27FCCD8F00021180 /* AppDelegate.swift in Sources */,
+				757A8AAC27FCD1F900021180 /* GroceryItemsViewController.swift in Sources */,
+				757A8AAE27FCD50600021180 /* ItemInfoViewController.swift in Sources */,
+				757A8A7C27FCCD8F00021180 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A8827FCCD9000021180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757A8A9127FCCD9000021180 /* Chowdam_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757A8A9227FCCD9000021180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757A8A9D27FCCD9000021180 /* Chowdam_GroceryAppUITestsLaunchTests.swift in Sources */,
+				757A8A9B27FCCD9000021180 /* Chowdam_GroceryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		757A8A8E27FCCD9000021180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757A8A7527FCCD8F00021180 /* Chowdam_GroceryApp */;
+			targetProxy = 757A8A8D27FCCD9000021180 /* PBXContainerItemProxy */;
+		};
+		757A8A9827FCCD9000021180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757A8A7527FCCD8F00021180 /* Chowdam_GroceryApp */;
+			targetProxy = 757A8A9727FCCD9000021180 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		757A8A7F27FCCD8F00021180 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757A8A8027FCCD8F00021180 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		757A8A8427FCCD9000021180 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757A8A8527FCCD9000021180 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		757A8A9E27FCCD9000021180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		757A8A9F27FCCD9000021180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		757A8AA127FCCD9000021180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chowdam_GroceryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		757A8AA227FCCD9000021180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chowdam_GroceryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		757A8AA427FCCD9000021180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowdam_GroceryApp.app/Chowdam_GroceryApp";
+			};
+			name = Debug;
+		};
+		757A8AA527FCCD9000021180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowdam_GroceryApp.app/Chowdam_GroceryApp";
+			};
+			name = Release;
+		};
+		757A8AA727FCCD9000021180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chowdam_GroceryApp;
+			};
+			name = Debug;
+		};
+		757A8AA827FCCD9000021180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Chowdam-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chowdam_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757A8A7127FCCD8F00021180 /* Build configuration list for PBXProject "Chowdam_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757A8A9E27FCCD9000021180 /* Debug */,
+				757A8A9F27FCCD9000021180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757A8AA027FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757A8AA127FCCD9000021180 /* Debug */,
+				757A8AA227FCCD9000021180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757A8AA327FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757A8AA427FCCD9000021180 /* Debug */,
+				757A8AA527FCCD9000021180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757A8AA627FCCD9000021180 /* Build configuration list for PBXNativeTarget "Chowdam_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757A8AA727FCCD9000021180 /* Debug */,
+				757A8AA827FCCD9000021180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757A8A6E27FCCD8F00021180 /* Project object */;
+}
