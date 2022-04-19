@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>576623063123-go5iujitmudpqt9qettncv657k9nm42k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.576623063123-go5iujitmudpqt9qettncv657k9nm42k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCN9zo4upeNqkKw-VJn7AHesiRy7mCYhCo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>576623063123</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.company.contactsApp</string>
+	<key>PROJECT_ID</key>
+	<string>contactsapp-e3465</string>
+	<key>STORAGE_BUCKET</key>
+	<string>contactsapp-e3465.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:576623063123:ios:3046c2e924cbdcc0a316a6</string>
+</dict>
+</plist>
